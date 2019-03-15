@@ -1,0 +1,1 @@
+# speedy-app-reader
