@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Kalam:300);
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+#page1 {
+	background: url(bg.jpg);
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	font-family: 'Kalam', serif;
+	text-align: center;
+	color:white;
+}
+
+#error {
+	background-color: maroon;
+	border-radius: 10px;
+	margin: 20px auto;
+	font-size: 20px;
+	width: 50%;
+}
+
+h1 {
+	font-family: 'Satisfy', cursive;
+	font-size: 70px;
+}
+
+#result {
+	font-family: 'Kalam', cursive;
+	font-size: 50px;
+	background-color: rgba(255,255,255,.2);
+	padding: 5% 0;
+}
+
+.full-width-slider input {
+	display: none !important;
+}
+
+.full-width-slider .ui-slider-track {
+	margin-left: 15px;
+}

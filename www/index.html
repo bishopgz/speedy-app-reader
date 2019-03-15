@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Speedy App</title>
+		<meta charset='utf-8'>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+		<link rel='stylesheet' href='http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css'/>
+		<script src='http://code.jquery.com/jquery-1.11.1.min.js'></script>
+		<script src='http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js'></script>
+		<link rel='stylesheet' href='./index.css' type='text/css'/>
+	</head>
+
+	<body>
+		<!-- PAGE 1 -->
+		<div data-role='page' id='page1' data-theme='a'>
+			
+			
+			<!-- MAIN -->
+			<div role='main' class='ui-content'>
+				<div class='header'>
+					<h1>Speedy</h1>
+					<p>For an efficient speed reading experience.</p>
+				</div>
+				
+				
+				<div id='controls'>
+					<!-- sliders -->
+					<div class='ui-grid-a'>
+						<div class='ui-block-a'>
+							<label for='fontSizeSlider'>Font Size <span id='fontSizeS'>50</span>px</label>
+						</div>
+						<div class='ui-block-b'>
+							<label for='speedSlider'><span id='speed'>300</span> words per minute</label>
+						</div>
+					</div>
+					
+					<div class='ui-grid-a'>
+						<div class='ui-block-a'>
+							<form class='full-width-slider'>
+								<input type='range' name='fontSizeSlider' id='fontSizeSlider'
+								min='20' max='100' value='50' step='5' data-highlight='true'>
+							</form>
+						</div>
+						<div class='ui-block-b'>
+							<form class='full-width-slider'>
+								<input type='range' name='speedSlider' id='speedSlider'
+								min='50' max='600' value='300' step='50' data-highlight='true'>
+							</form>
+						</div>
+					</div>
+					
+					
+					<!-- progress bar -->
+					<form class='full-width-slider'>
+						<label for='progressSlider'>Progress <span id='progress'>100</span>%</label>
+						<input type='range' name='progressSlider' id='progressSlider'
+						min='0' max='100' value='0' step='0' data-highlight='true'>
+					</form>
+				</div>
+				
+				
+				<!-- reading screen -->
+				<div id='result'>
+					Akashi Seijuro
+				</div>
+				
+				
+				<!-- error -->
+				<div id='error'>
+					Insert text!
+				</div>
+				
+				
+				<!-- input  -->
+				<div id='inputs'>
+					<textarea id='userInput'></textarea>
+					<!-- Buttons -->
+					<button id='start'>Start Reading</button>
+					<button id='new'>New</button>
+					<button id='pause'>Pause</button>
+					<button id='resume'>Resume</button>
+					
+				</div>
+				
+				
+				
+			</div><!-- END MAIN -->
+			
+		</div>	
+	</body>
+	<script src='./index.js'></script>
+</html>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.ksoftware.speedy" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Speedy</name>
+    <description>
+        This is an app which will help you 
+		develop your speed reading skills easier than ever.
+    </description>
+    <author email="zaf.mitx@gmail.com" href="http://ksoftware.eu">
+        KSoftware Technologies
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+	<platform name="android">
+	<icon density="ldpi" src="icon/android/ldpi.png"/>
+	<icon density="mdpi" src="icon/android/mdpi.png"/>
+	<icon density="hdpi" src="icon/android/hdpi.png"/>
+	<icon density="xhdpi" src="icon/android/xhdpi.png"/>
+	<icon density="xxhdpi" src="icon/android/xxhdpi.png"/>
+	<icon density="xxxhdpi" src="icon/android/xxxhdpi.png"/>
+	</platform>
+	<platform name="windows">
+		<icon src="icon/windows/storelogo.png" target="StoreLogo"/>
+		<icon src="icon/windows/smalllogo.png" target="Square30x30Logo"/>
+		<icon src="icon/windows/Square44x44Logo.png" target="Square44x44Logo"/>
+		<icon src="icon/windows/Square70x70Logo.png" target="Square70x70Logo"/>
+		<icon src="icon/windows/Square71x71Logo.png" target="Square71x71Logo"/>
+		<icon src="icon/windows/Square150x150Logo.png" target="Square150x150Logo"/>
+		<icon src="icon/windows/Square310x310Logo.png" target="Square310x310Logo"/>
+	</platform>
+</widget>
+
+
